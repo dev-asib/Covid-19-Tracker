@@ -1,4 +1,4 @@
-import 'package:covid_19_tracker/app.dart';
+import 'package:covid_19_tracker/app/app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
