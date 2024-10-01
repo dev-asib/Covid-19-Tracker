@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:math' as math;
-import 'package:covid_19_tracker/presentation/utils/assets_path.dart';
-import 'package:covid_19_tracker/presentation/utils/size_config.dart';
-import 'package:covid_19_tracker/presentation/view/world_covid_states_screen.dart';
+import 'package:covid_insight/presentation/utils/assets_path.dart';
+import 'package:covid_insight/presentation/utils/size_config.dart';
+import 'package:covid_insight/presentation/view/world_covid_states_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -50,7 +50,7 @@ class _SplashScreenState extends State<SplashScreen>
             SizedBox(height: SizeConfig.screenHeight! * 0.08),
             Text(
               textAlign: TextAlign.center,
-              "COVID-19\nTRACKER",
+              "COVID INSIGHT",
               style: Theme.of(context).textTheme.titleLarge,
             ),
           ],

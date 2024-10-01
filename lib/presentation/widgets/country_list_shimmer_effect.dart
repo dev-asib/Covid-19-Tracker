@@ -1,4 +1,4 @@
-import 'package:covid_19_tracker/presentation/utils/size_config.dart';
+import 'package:covid_insight/presentation/utils/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 

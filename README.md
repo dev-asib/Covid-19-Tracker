@@ -1,4 +1,4 @@
-# covid_19_tracker
+# covid_insight
 
 A new Flutter project.
 

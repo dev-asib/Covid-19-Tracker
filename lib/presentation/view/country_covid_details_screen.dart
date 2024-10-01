@@ -1,4 +1,4 @@
-import 'package:covid_19_tracker/presentation/widgets/widgets.dart';
+import 'package:covid_insight/presentation/widgets/covid_data_row.dart';
 import 'package:flutter/material.dart';
 
 class CountryCovidDetailsScreen extends StatefulWidget {
@@ -43,10 +43,10 @@ class _CountryCovidDetailsScreenState extends State<CountryCovidDetailsScreen> {
 
   Widget _buildFlagSection() {
     return Container(
-      height: 200,
+      height: 120,
       width: 200,
       decoration: BoxDecoration(
-        shape: BoxShape.circle,
+        borderRadius: BorderRadius.circular(8),
         image: DecorationImage(
           opacity: 0.5,
           image: NetworkImage(widget.flag),

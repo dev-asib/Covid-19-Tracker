@@ -1,6 +1,6 @@
-import 'package:covid_19_tracker/Services/world_covid_states_services.dart';
-import 'package:covid_19_tracker/presentation/view/country_covid_details_screen.dart';
-import 'package:covid_19_tracker/presentation/widgets/widgets.dart';
+import 'package:covid_insight/Services/world_covid_states_services.dart';
+import 'package:covid_insight/presentation/view/country_covid_details_screen.dart';
+import 'package:covid_insight/presentation/widgets/country_list_shimmer_effect.dart';
 import 'package:flutter/material.dart';
 
 class CountryListScreen extends StatefulWidget {

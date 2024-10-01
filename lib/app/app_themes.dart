@@ -1,4 +1,4 @@
-import 'package:covid_19_tracker/presentation/utils/app_colors.dart';
+import 'package:covid_insight/presentation/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class AppThemes {

@@ -1,7 +1,8 @@
-import 'package:covid_19_tracker/Services/world_covid_states_services.dart';
-import 'package:covid_19_tracker/presentation/utils/size_config.dart';
-import 'package:covid_19_tracker/presentation/view/country_list_screen.dart';
-import 'package:covid_19_tracker/presentation/widgets/widgets.dart';
+import 'package:covid_insight/Services/world_covid_states_services.dart';
+import 'package:covid_insight/presentation/utils/size_config.dart';
+import 'package:covid_insight/presentation/view/country_list_screen.dart';
+import 'package:covid_insight/presentation/widgets/covid_data_row.dart';
+import 'package:covid_insight/presentation/widgets/world_states_covid_data_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
